@@ -1,0 +1,42 @@
+/*bootstrap覆盖*/
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-default {
+    background-color: rgba(255,255,255,0.4);
+    border-color: rgba(255,255,255,0);
+    /*-webkit-filter: blur(1px)*/
+}
+
+
+/*new*/
+.g-header {
+
+}
+
+.b-header-mask {
+    position: relative;
+    height: 52px;
+    margin-top: -72px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.6);
+    z-index: -49;
+    -webkit-filter: blur(1px)
+}
+
+.b-header-mask-bg {
+    position: absolute;
+    height: 180px;
+    top: 0px;
+    padding: 0 20px;
+    width: 100%;
+    background-position: center;
+    z-index: -50;
+    /*-webkit-filter: blur(5px)*/
+}
+
+.iframe-pos {
+    margin-top: 22px;
+    margin-left: 110px;
+}
